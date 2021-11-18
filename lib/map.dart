@@ -37,6 +37,7 @@ class _HomeMapState extends State<HomeMap> {
   markerId: MarkerId('labelthree'),
   position:LatLng( 13.677538, -89.284816 ),
   infoWindow: InfoWindow(title: 'Encomiendas SV Santa Tecla'),
+    
   icon: BitmapDescriptor.defaultMarkerWithHue(
   BitmapDescriptor.hueRed
   ),

@@ -17,25 +17,43 @@ class _HomeMapState extends State<HomeMap> {
   super.initState();
   }
   void marcadores(){
-  Marker etiquetauno=Marker(
-  markerId: MarkerId('etiqueta1'),
-  position:LatLng( 13.98963227246124, -89.67701764016482 ),
-  infoWindow: InfoWindow(title: 'Domicilios SV chalchuapa'),
+  Marker labelone=Marker(
+  markerId: MarkerId('labelone'),
+  position:LatLng( 13.726235, -89.367166 ),
+  infoWindow: InfoWindow(title: 'Encomiendas SV Lourdes'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
-  BitmapDescriptor.hueBlue
+  BitmapDescriptor.hueOrange
   ),
   );
-  Marker etiquetados=Marker(
-  markerId: MarkerId('etiqueta2'),
-  position:LatLng( 13.905209430364646, -89.49985877826892 ),
-  infoWindow: InfoWindow(title: 'Domicilios SV Congo'),
+  Marker labeltwo=Marker(
+  markerId: MarkerId('labeltwo'),
+  position:LatLng( 13.677881, -89.267931 ),
+  infoWindow: InfoWindow(title: 'Encomiendas SV Merliot'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
-  BitmapDescriptor.hueBlue
+  BitmapDescriptor.hueOrange
+  ),
+  );
+  Marker labelthree=Marker(
+  markerId: MarkerId('labelthree'),
+  position:LatLng( 13.677538, -89.284816 ),
+  infoWindow: InfoWindow(title: 'Encomiendas SV Santa Tecla'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+  BitmapDescriptor.hueOrange
+  ),
+  );
+  Marker labelfour=Marker(
+  markerId: MarkerId('labelfour'),
+  position:LatLng( 13.6412539, -88.8032335 ),
+  infoWindow: InfoWindow(title: 'Encomiendas SV San Vicente'),
+  icon: BitmapDescriptor.defaultMarkerWithHue(
+  BitmapDescriptor.hueOrange
   ),
   );
   setState(() {
-    market.add(etiquetauno);
-    market.add(etiquetados);
+    market.add(labelone);
+    market.add(labeltwo);
+    market.add(labelthree);
+    market.add(labelfour);
 });
   }
     static final CameraPosition _kGooglePlex = CameraPosition(

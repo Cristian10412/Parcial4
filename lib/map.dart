@@ -30,7 +30,7 @@ class _HomeMapState extends State<HomeMap> {
   position:LatLng( 13.677881, -89.267931 ),
   infoWindow: InfoWindow(title: 'Encomiendas SV Merliot'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
-  BitmapDescriptor.hueOrange
+  BitmapDescriptor.hueGreen
   ),
   );
   Marker labelthree=Marker(
@@ -38,7 +38,7 @@ class _HomeMapState extends State<HomeMap> {
   position:LatLng( 13.677538, -89.284816 ),
   infoWindow: InfoWindow(title: 'Encomiendas SV Santa Tecla'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
-  BitmapDescriptor.hueOrange
+  BitmapDescriptor.hueRed
   ),
   );
   Marker labelfour=Marker(
@@ -46,7 +46,7 @@ class _HomeMapState extends State<HomeMap> {
   position:LatLng( 13.6412539, -88.8032335 ),
   infoWindow: InfoWindow(title: 'Encomiendas SV San Vicente'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
-  BitmapDescriptor.hueOrange
+  BitmapDescriptor.hueCyan
   ),
   );
   setState(() {
